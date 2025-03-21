@@ -46,7 +46,6 @@ declare -a DEPENDENCIES=(
     "git"
     "python3"
     "python3-pip"
-    "python3-venv"
     "systemctl"
 )
 
