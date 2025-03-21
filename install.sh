@@ -66,7 +66,7 @@ check_system_dependencies() {
     # Update package lists and install missing dependencies
     if [[ ${#missing_deps[@]} -gt 0 ]]; then
         log "Installing missing dependencies: ${missing_deps[*]}"
-        apt update && apt install -y "${missing_deps[@]}" || error "Failed to install dependencies."
+        dnf install -y "${missing_deps[@]}" || error "Failed to install dependencies."
     else
         success "All dependencies are installed."
     fi
