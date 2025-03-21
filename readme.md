@@ -10,7 +10,7 @@ To install the `ServerManagerBot` bot, execute the following commands:
 
 1. Download and set up the script:
    ```bash
-   sudo bash -c "$(curl -sL https://raw.githubusercontent.com/erfjab/ServerManagerBot/master/install.sh)" @ install-script
+   sudo bash -c "$(curl -sL https://raw.githubusercontent.com/agh369dev/ServerManagerBot/master/install.sh)" @ install-script
    ```
 
 2. Install the bot:
