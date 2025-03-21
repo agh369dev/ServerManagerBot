@@ -8,7 +8,7 @@ IFS=$'\n\t'
 readonly SCRIPT_NAME="ServerManagerBot"
 readonly INSTALL_DIR="/opt/hetznerbot"
 readonly BRANCH="master"
-readonly USERNAME="hetznerbot"
+readonly USERNAME="agh369dev"
 
 readonly SERVICE_FILE="/etc/systemd/system/${SCRIPT_NAME}.service"
 readonly SERVICE_NAME="${SCRIPT_NAME}.service"
