@@ -8,7 +8,7 @@ class MessageTextsFile(BaseSettings):
         env_file=".env", extra="ignore"
     )
 
-    START: str = "👋 Welcome to ServerManagerBot\nDevelop and Design by @ErfJabs"
+    START: str = "Welcome to Heztner BOT"
     MENU: str = "🗃️ Your Account Menu:"
     SERVER_LIST: str = "🖥️ Here are your servers:"
     IS_UPDATED: str = "✅ is updated!"
