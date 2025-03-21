@@ -6,9 +6,9 @@ IFS=$'\n\t'
 
 # Global constants
 readonly SCRIPT_NAME="ServerManagerBot"
-readonly INSTALL_DIR="/opt/erfjab"
+readonly INSTALL_DIR="/opt/hetznerbot"
 readonly BRANCH="master"
-readonly USERNAME="erfjab"
+readonly USERNAME="hetznerbot"
 
 readonly SERVICE_FILE="/etc/systemd/system/${SCRIPT_NAME}.service"
 readonly SERVICE_NAME="${SCRIPT_NAME}.service"
